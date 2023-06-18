@@ -48,7 +48,18 @@ body {
     margin-bottom: 15px;
 }
 
+.resume__block-full {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
 @media screen and (max-width: 576px) {
+
+    .resume__block-full {
+        flex-direction: column;
+        justify-content: center;
+    }
 
     .main-info,
     .contact_info_container {
